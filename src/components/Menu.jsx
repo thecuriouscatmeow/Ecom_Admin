@@ -3,18 +3,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 //ICONS
-import dashboard from '../../public/assets/menu/icons/dashboard.svg'; 
-import feedback from '../../public/assets/menu/icons/feedback.svg'; 
-import invoice from '../../public/assets/menu/icons/invoice.svg'; 
-import logout from '../../public/assets/menu/icons/logout.svg'; 
-import notifications from '../../public/assets/menu/icons/notifications.svg'; 
-import payments from '../../public/assets/menu/icons/payments.svg'; 
-import products from '../../public/assets/menu/icons/products.svg'; 
-import refunds from '../../public/assets/menu/icons/refunds.svg'; 
-import returns from '../../public/assets/menu/icons/returns.svg'; 
-import sales from '../../public/assets/menu/icons/sales.svg'; 
-import settings from '../../public/assets/menu/icons/settings.svg'; 
-import avatar from '../../public/assets/menu/avatar/placeholder.svg';
+import dashboard from '../assets/menu/icons/dashboard.svg'; 
+import feedback from '../assets/menu/icons/feedback.svg'; 
+import invoice from '../assets/menu/icons/invoice.svg'; 
+import logout from '../assets/menu/icons/logout.svg'; 
+import notifications from '../assets/menu/icons/notifications.svg'; 
+import payments from '../assets/menu/icons/payments.svg'; 
+import products from '../assets/menu/icons/products.svg'; 
+import refunds from '../assets/menu/icons/refunds.svg'; 
+import returns from '../assets/menu/icons/returns.svg'; 
+import sales from '../assets/menu/icons/sales.svg'; 
+import settings from '../assets/menu/icons/settings.svg'; 
+import avatar from '../assets/menu/avatar/placeholder.svg';
 
 
 const Container = styled.div`

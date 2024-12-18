@@ -1,29 +1,16 @@
-import { useState } from 'react'
-import { Routes, Route, Navigate } from "react-router-dom";
-import './App.css'
+import Navbar from "./components/Navbar";
 
-//PAGES
-import Login from "./pages/Login"; 
-
-import Menu from "./components/Menu"
-
-// import Navbar from './components/Navbar'
-
-function App() {
-    const user = false; 
-
+const App = () => {
   return (
-    <>
-      <Menu />
-      <Routes>
-      <Route path="/login" element={user ? <Navigate to="/" /> : <Login />} />
-      
-     </Routes>
+    <div className="px-4 md:px-8 lg:px-16 lx:px-32 2xl:px-64">
       {/* NAVBAR */}
-      {/* SEARCHBAR */}
-      {/* PRODUCTS LIST */}
-    </>
-  )
-}
+      <Navbar />
+      {/* BREADCRUMB */}
+      {/* INTRODUCTION */}
+      {/* FEATURED POSTS */}
+      {/* POST LIST */}
+    </div>
+  );
+};
 
-export default App
+export default App;
